@@ -40,3 +40,19 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(old,(self.root/'manifest.json').read_bytes())
 
 if __name__=='__main__':unittest.main()
+
+class SupplementTests(unittest.TestCase):
+    def test_general_rules_excluded_from_supplement(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);raw=root/'raw';raw.mkdir();items=[]
+            names=['openai','category-ads-all','private','private-ip','cn','cn-ip','geolocation-cn','geolocation-!cn']
+            for name in names:
+                kind='ipcidr' if name.endswith('-ip') else 'domain'
+                items.append({'name':name,'kind':kind,'policy':'P','url':'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/'+name+'.list'})
+                (raw/(name+'.list')).write_text('10.0.0.0/8\n' if kind=='ipcidr' else '+.'+name.replace('!','')+'.example\n')
+            (root/'sources.json').write_text(json.dumps(items))
+            info=build_rules.generate(root,raw,'a'*40)
+            sup=(root/'supplemental.list').read_text()
+            self.assertIn('# openai\n',sup)
+            for name in names[1:]:self.assertNotIn('# '+name+'\n',sup)
+            self.assertEqual(info['supplemental_source_count'],1)

@@ -13,6 +13,7 @@ on:
     paths:
       - '*.py'
       - 'sources.json'
+      - 'upstream/**'
       - 'tests/**'
       - '.github/workflows/update.yml'
 permissions:
@@ -37,9 +38,11 @@ jobs:
           else
             python3 build_rules.py
           fi
+      - name: Rebuild Moyu-first public profile
+        run: python3 build_profile.py
       - name: Commit public rules as one revision
         run: |
-          git add rules.list manifest.json categories
+          git add rules.list supplemental.list manifest.json categories QuantumultX.conf
           if git diff --cached --quiet; then
             echo "No rule changes"
             exit 0

@@ -12,6 +12,7 @@ import tempfile
 from rules_core import convert, ordered, check_size, load_sources, fetch, digest, validate_rules
 
 ROOT=Path(__file__).resolve().parent
+GENERAL_SOURCES={'category-ads-all','private','private-ip','cn','cn-ip','geolocation-cn','geolocation-!cn'}
 
 def generate(root, raw, commit, accept=False):
     if not re.fullmatch(r'[0-9a-f]{40}',commit):raise ValueError('Invalid upstream SHA')
@@ -19,7 +20,7 @@ def generate(root, raw, commit, accept=False):
     previous=json.loads((root/'manifest.json').read_text()) if (root/'manifest.json').exists() else {}
     old=previous.get('sources',{})
     if set(old)-{i['name'] for i in sources} and not accept:raise ValueError('Source removal requires explicit review')
-    combined=[];metadata={};total=0
+    combined=[];supplement=[];metadata={};total=0;supplement_count=0;supplement_sources=0
     valid={i['policy'] for i in sources}
     with tempfile.TemporaryDirectory(prefix='.stage-',dir=root) as directory:
         stage=Path(directory);(stage/'categories').mkdir()
@@ -32,16 +33,24 @@ def generate(root, raw, commit, accept=False):
                 'count':count,'sha256':digest(data),'policy':item['policy']}
             (stage/'categories'/(name+'.list')).write_text('\n'.join(lines)+'\n',encoding='utf-8')
             combined.extend(['# '+name]+lines);total+=count
+            if name not in GENERAL_SOURCES:
+                supplement.extend(['# '+name]+lines)
+                supplement_count+=count;supplement_sources+=1
         text='\n'.join(combined)+'\n'
         (stage/'rules.list').write_text(text,encoding='utf-8')
+        supplement_text='\n'.join(supplement)+'\n'
+        (stage/'supplemental.list').write_text(supplement_text,encoding='utf-8')
         manifest={'upstream_commit':commit,'source_count':len(sources),'rule_count':total,
-            'business_policy_count':len(valid|{'🐟 漏网之鱼'}),'rules_sha256':digest(text.encode()),'sources':metadata}
+            'business_policy_count':len(valid|{'🐟 漏网之鱼'}),'rules_sha256':digest(text.encode()),'sources':metadata,
+            'supplemental_source_count':supplement_sources,'supplemental_rule_count':supplement_count,
+            'supplemental_sha256':digest(supplement_text.encode()),'supplemental_excluded_sources':sorted(GENERAL_SOURCES)}
         (stage/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         # Validate the entire batch before changing generated outputs.
         # Remote publication happens later in ONE git commit; failed workflow steps never push.
         if (root/'categories').exists():shutil.rmtree(root/'categories')
         os.replace(stage/'categories',root/'categories')
         os.replace(stage/'rules.list',root/'rules.list')
+        os.replace(stage/'supplemental.list',root/'supplemental.list')
         os.replace(stage/'manifest.json',root/'manifest.json')
     return manifest
 

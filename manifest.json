@@ -557,5 +557,17 @@
       "sha256": "364a9f1e97a32731f73d43ce2dc07b8d68412ffb128fea90799f071616ef590d",
       "policy": "🔒 国内服务"
     }
-  }
+  },
+  "supplemental_source_count": 85,
+  "supplemental_rule_count": 17601,
+  "supplemental_sha256": "7cfbbb47c0c564bf0ee27b7e14bbf14198053b5d7f57faf7d530ba088ddf1c05",
+  "supplemental_excluded_sources": [
+    "category-ads-all",
+    "cn",
+    "cn-ip",
+    "geolocation-!cn",
+    "geolocation-cn",
+    "private",
+    "private-ip"
+  ]
 }
