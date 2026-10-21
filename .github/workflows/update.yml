@@ -1,0 +1,50 @@
+name: Update QX rules
+on:
+  schedule:
+    - cron: '23 20 * * *' # 04:23 Asia/Shanghai, next day
+  workflow_dispatch:
+    inputs:
+      accept_size_change:
+        description: 'Allow a reviewed large rule count change'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - '*.py'
+      - 'sources.json'
+      - 'tests/**'
+      - '.github/workflows/update.yml'
+permissions:
+  contents: write
+concurrency:
+  group: qx-rule-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Test converter and failure protection
+        run: python3 -m unittest discover -s tests -v
+      - name: Fetch, validate and convert all sources
+        env:
+          ACCEPT_SIZE_CHANGE: ${{ inputs.accept_size_change }}
+        run: |
+          if [ "$ACCEPT_SIZE_CHANGE" = "true" ]; then
+            python3 build_rules.py --accept-size-change
+          else
+            python3 build_rules.py
+          fi
+      - name: Commit public rules as one revision
+        run: |
+          git add rules.list manifest.json categories
+          if git diff --cached --quiet; then
+            echo "No rule changes"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update Quantumult X rule snapshot'
+          git push origin HEAD:main

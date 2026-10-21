@@ -1,0 +1,554 @@
+[
+  {
+    "name": "category-ads-all",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.list",
+    "policy": "🛑 广告拦截"
+  },
+  {
+    "name": "private",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.list",
+    "policy": "🏠 私有网络"
+  },
+  {
+    "name": "private-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.list",
+    "policy": "🏠 私有网络"
+  },
+  {
+    "name": "openai",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.list",
+    "policy": "🤖 AI 服务"
+  },
+  {
+    "name": "anthropic",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.list",
+    "policy": "🤖 AI 服务"
+  },
+  {
+    "name": "category-ai-chat-!cn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-chat-!cn.list",
+    "policy": "🤖 AI 服务"
+  },
+  {
+    "name": "geolocation-cn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-cn.list",
+    "policy": "🔒 国内服务"
+  },
+  {
+    "name": "cn-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.list",
+    "policy": "🔒 国内服务"
+  },
+  {
+    "name": "youtube",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.list",
+    "policy": "📹 油管视频"
+  },
+  {
+    "name": "category-scholar-!cn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-scholar-!cn.list",
+    "policy": "📚 教育学术"
+  },
+  {
+    "name": "coursera",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/coursera.list",
+    "policy": "📚 教育学术"
+  },
+  {
+    "name": "udemy",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/udemy.list",
+    "policy": "📚 教育学术"
+  },
+  {
+    "name": "edx",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/edx.list",
+    "policy": "📚 教育学术"
+  },
+  {
+    "name": "khanacademy",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/khanacademy.list",
+    "policy": "📚 教育学术"
+  },
+  {
+    "name": "wikimedia",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/wikimedia.list",
+    "policy": "📚 教育学术"
+  },
+  {
+    "name": "aws",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/aws.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "azure",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "cloudflare",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cloudflare.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "digitalocean",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/digitalocean.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "vercel",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/vercel.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "netlify",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netlify.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "cloudflare-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cloudflare.list",
+    "policy": "☁️ 云服务"
+  },
+  {
+    "name": "google",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.list",
+    "policy": "🔍 谷歌服务"
+  },
+  {
+    "name": "google-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.list",
+    "policy": "🔍 谷歌服务"
+  },
+  {
+    "name": "telegram",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.list",
+    "policy": "📲 电报消息"
+  },
+  {
+    "name": "telegram-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.list",
+    "policy": "📲 电报消息"
+  },
+  {
+    "name": "github",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.list",
+    "policy": "🐱 代码托管"
+  },
+  {
+    "name": "gitlab",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gitlab.list",
+    "policy": "🐱 代码托管"
+  },
+  {
+    "name": "atlassian",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/atlassian.list",
+    "policy": "🐱 代码托管"
+  },
+  {
+    "name": "microsoft",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.list",
+    "policy": "Ⓜ️ 微软服务"
+  },
+  {
+    "name": "onedrive",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.list",
+    "policy": "Ⓜ️ 微软服务"
+  },
+  {
+    "name": "apple-tvplus",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-tvplus.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "apple",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.list",
+    "policy": "🍏 苹果服务"
+  },
+  {
+    "name": "icloud",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/icloud.list",
+    "policy": "🍏 苹果服务"
+  },
+  {
+    "name": "twitter",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.list",
+    "policy": "🐦 推特/X"
+  },
+  {
+    "name": "twitter-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.list",
+    "policy": "🐦 推特/X"
+  },
+  {
+    "name": "facebook",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/facebook.list",
+    "policy": "📘 Meta 系"
+  },
+  {
+    "name": "instagram",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/instagram.list",
+    "policy": "📘 Meta 系"
+  },
+  {
+    "name": "whatsapp",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/whatsapp.list",
+    "policy": "📘 Meta 系"
+  },
+  {
+    "name": "facebook-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/facebook.list",
+    "policy": "📘 Meta 系"
+  },
+  {
+    "name": "discord",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/discord.list",
+    "policy": "🎙️ Discord"
+  },
+  {
+    "name": "tiktok",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "line",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/line.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "reddit",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/reddit.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "linkedin",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/linkedin.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "snap",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/snap.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "pinterest",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/pinterest.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "tumblr",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tumblr.list",
+    "policy": "💬 其他社交"
+  },
+  {
+    "name": "netflix",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.list",
+    "policy": "🎬 奈飞"
+  },
+  {
+    "name": "netflix-ip",
+    "kind": "ipcidr",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.list",
+    "policy": "🎬 奈飞"
+  },
+  {
+    "name": "disney",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.list",
+    "policy": "🏰 迪士尼+"
+  },
+  {
+    "name": "hbo",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/hbo.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "hulu",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/hulu.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "primevideo",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/primevideo.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "spotify",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "twitch",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitch.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "dazn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dazn.list",
+    "policy": "📺 欧美流媒体"
+  },
+  {
+    "name": "bahamut",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.list",
+    "policy": "🎌 亚洲流媒体"
+  },
+  {
+    "name": "biliintl",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.list",
+    "policy": "🎌 亚洲流媒体"
+  },
+  {
+    "name": "niconico",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/niconico.list",
+    "policy": "🎌 亚洲流媒体"
+  },
+  {
+    "name": "abema",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/abema.list",
+    "policy": "🎌 亚洲流媒体"
+  },
+  {
+    "name": "viu",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/viu.list",
+    "policy": "🎌 亚洲流媒体"
+  },
+  {
+    "name": "kktv",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/kktv.list",
+    "policy": "🎌 亚洲流媒体"
+  },
+  {
+    "name": "steam",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.list",
+    "policy": "🎮 Steam"
+  },
+  {
+    "name": "epicgames",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/epicgames.list",
+    "policy": "🖥️ PC 游戏"
+  },
+  {
+    "name": "ea",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ea.list",
+    "policy": "🖥️ PC 游戏"
+  },
+  {
+    "name": "ubisoft",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ubisoft.list",
+    "policy": "🖥️ PC 游戏"
+  },
+  {
+    "name": "blizzard",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/blizzard.list",
+    "policy": "🖥️ PC 游戏"
+  },
+  {
+    "name": "gog",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gog.list",
+    "policy": "🖥️ PC 游戏"
+  },
+  {
+    "name": "riot",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/riot.list",
+    "policy": "🖥️ PC 游戏"
+  },
+  {
+    "name": "playstation",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/playstation.list",
+    "policy": "🎯 主机游戏"
+  },
+  {
+    "name": "xbox",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xbox.list",
+    "policy": "🎯 主机游戏"
+  },
+  {
+    "name": "nintendo",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nintendo.list",
+    "policy": "🎯 主机游戏"
+  },
+  {
+    "name": "docker",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/docker.list",
+    "policy": "🛠️ 开发工具"
+  },
+  {
+    "name": "npmjs",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/npmjs.list",
+    "policy": "🛠️ 开发工具"
+  },
+  {
+    "name": "jetbrains",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/jetbrains.list",
+    "policy": "🛠️ 开发工具"
+  },
+  {
+    "name": "stackexchange",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/stackexchange.list",
+    "policy": "🛠️ 开发工具"
+  },
+  {
+    "name": "dropbox",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dropbox.list",
+    "policy": "💾 网盘存储"
+  },
+  {
+    "name": "notion",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/notion.list",
+    "policy": "💾 网盘存储"
+  },
+  {
+    "name": "paypal",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.list",
+    "policy": "💳 支付平台"
+  },
+  {
+    "name": "stripe",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/stripe.list",
+    "policy": "💳 支付平台"
+  },
+  {
+    "name": "wise",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/wise.list",
+    "policy": "💳 支付平台"
+  },
+  {
+    "name": "binance",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/binance.list",
+    "policy": "₿ 加密货币"
+  },
+  {
+    "name": "bbc",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bbc.list",
+    "policy": "📰 新闻资讯"
+  },
+  {
+    "name": "cnn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cnn.list",
+    "policy": "📰 新闻资讯"
+  },
+  {
+    "name": "nytimes",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nytimes.list",
+    "policy": "📰 新闻资讯"
+  },
+  {
+    "name": "wsj",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/wsj.list",
+    "policy": "📰 新闻资讯"
+  },
+  {
+    "name": "bloomberg",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bloomberg.list",
+    "policy": "📰 新闻资讯"
+  },
+  {
+    "name": "amazon",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/amazon.list",
+    "policy": "🛒 海淘购物"
+  },
+  {
+    "name": "ebay",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ebay.list",
+    "policy": "🛒 海淘购物"
+  },
+  {
+    "name": "geolocation-!cn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.list",
+    "policy": "🌍 非中国"
+  },
+  {
+    "name": "cn",
+    "kind": "domain",
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.list",
+    "policy": "🔒 国内服务"
+  }
+]
