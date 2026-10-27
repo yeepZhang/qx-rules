@@ -136,7 +136,6 @@ host-suffix, paypal.jp, 💳 支付平台
 host-suffix, paypal.me, 💳 支付平台
 host-suffix, paypal.so, 💳 支付平台
 host-suffix, paypal.us, 💳 支付平台
-host-suffix, paypalbeacon.com, 💳 支付平台
 host-suffix, paypalbenefits.com, 💳 支付平台
 host-suffix, paypalbrasil.com, 💳 支付平台
 host-suffix, paypalcommunity.com, 💳 支付平台
@@ -238,6 +237,7 @@ host-suffix, beibao.com.cn, 💳 支付平台
 host-suffix, paypal.com.cn, 💳 支付平台
 host-suffix, paypal.net.cn, 💳 支付平台
 host-suffix, paypal.org.cn, 💳 支付平台
+host-suffix, paypalbeacon.com, 💳 支付平台
 host-suffix, paypalcommunity.cn, 💳 支付平台
 host-suffix, paypalhere.cn, 💳 支付平台
 host-suffix, paypalhere.com.cn, 💳 支付平台

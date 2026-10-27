@@ -1,4 +1,3 @@
-host, netflix.com.edgesuite.net, 🎬 奈飞
 host-suffix, fast.com, 🎬 奈飞
 host-suffix, netflix.ca, 🎬 奈飞
 host-suffix, netflix.com, 🎬 奈飞
@@ -22,3 +21,4 @@ host-suffix, netflixdnstest7.com, 🎬 奈飞
 host-suffix, netflixdnstest8.com, 🎬 奈飞
 host-suffix, netflixdnstest9.com, 🎬 奈飞
 host-suffix, netflixdnstest10.com, 🎬 奈飞
+host-suffix, netflix.com.edgesuite.net, 🎬 奈飞

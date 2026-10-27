@@ -69,8 +69,8 @@ host-suffix, azure, Ⓜ️ 微软服务
 host-suffix, xbox, Ⓜ️ 微软服务
 host-suffix, onedriveupdater, Ⓜ️ 微软服务
 host-suffix, onedrive, Ⓜ️ 微软服务
-host-suffix, microsoftnews.net, Ⓜ️ 微软服务
-host-suffix, internetexplorer.com, Ⓜ️ 微软服务
+host-suffix, microsoftnews.org, Ⓜ️ 微软服务
+host-suffix, xbox.eu, Ⓜ️ 微软服务
 host-suffix, microsoft.com, Ⓜ️ 微软服务
 host-suffix, microsoft.cz, Ⓜ️ 微软服务
 host-suffix, microsoft.de, Ⓜ️ 微软服务
@@ -107,9 +107,6 @@ host-suffix, m12.vc, Ⓜ️ 微软服务
 host-suffix, a-msedge.net, Ⓜ️ 微软服务
 host-suffix, aka.ms, Ⓜ️ 微软服务
 host-suffix, ankarazirvesi2018.com, Ⓜ️ 微软服务
-host-suffix, applicationinsights.io, Ⓜ️ 微软服务
-host-suffix, applicationinsights.net, Ⓜ️ 微软服务
-host-suffix, aria.ms, Ⓜ️ 微软服务
 host-suffix, asp.net, Ⓜ️ 微软服务
 host-suffix, aspnetcdn.com, Ⓜ️ 微软服务
 host-suffix, binads.com, Ⓜ️ 微软服务
@@ -155,7 +152,7 @@ host-suffix, ie9.com, Ⓜ️ 微软服务
 host-suffix, imaginecup.pl, Ⓜ️ 微软服务
 host-suffix, ingads.com, Ⓜ️ 微软服务
 host-suffix, internetexplorer.co, Ⓜ️ 微软服务
-host-suffix, microsoftnewskids.com, Ⓜ️ 微软服务
+host-suffix, internetexplorer.com, Ⓜ️ 微软服务
 host-suffix, intunewiki.com, Ⓜ️ 微软服务
 host-suffix, iotinactionevents.com, Ⓜ️ 微软服务
 host-suffix, kidgrid.tv, Ⓜ️ 微软服务
@@ -171,7 +168,7 @@ host-suffix, managedmeetingrooms.com, Ⓜ️ 微软服务
 host-suffix, meetfasttrack.com, Ⓜ️ 微软服务
 host-suffix, meetyourdevices.com, Ⓜ️ 微软服务
 host-suffix, mepn.com, Ⓜ️ 微软服务
-host-suffix, microsoftnewsforkids.org, Ⓜ️ 微软服务
+host-suffix, microsoftedgeinsider.com, Ⓜ️ 微软服务
 host-suffix, microsoft-falcon.io, Ⓜ️ 微软服务
 host-suffix, microsoft-int.com, Ⓜ️ 微软服务
 host-suffix, microsoft-ppe.com, Ⓜ️ 微软服务
@@ -265,7 +262,7 @@ host-suffix, sharepointonline.com, Ⓜ️ 微软服务
 host-suffix, signalr.net, Ⓜ️ 微软服务
 host-suffix, skype.com, Ⓜ️ 微软服务
 host-suffix, skype.net, Ⓜ️ 微软服务
-host-suffix, skypeassets.com, Ⓜ️ 微软服务
+host-suffix, microsoftnewskids.org, Ⓜ️ 微软服务
 host-suffix, skypeassets.net, Ⓜ️ 微软服务
 host-suffix, spo-msedge.net, Ⓜ️ 微软服务
 host-suffix, staffhub.ms, Ⓜ️ 微软服务
@@ -275,7 +272,7 @@ host-suffix, svc.ms, Ⓜ️ 微软服务
 host-suffix, sway-cdn.com, Ⓜ️ 微软服务
 host-suffix, sway.com, Ⓜ️ 微软服务
 host-suffix, sysinternals.com, Ⓜ️ 微软服务
-host-suffix, microsoftnewskids.net, Ⓜ️ 微软服务
+host-suffix, t-msedge.net, Ⓜ️ 微软服务
 host-suffix, tailwindtraders.com, Ⓜ️ 微软服务
 host-suffix, techhub.ms, Ⓜ️ 微软服务
 host-suffix, tfsallin.net, Ⓜ️ 微软服务
@@ -307,14 +304,14 @@ host-suffix, microsoftnews.cc, Ⓜ️ 微软服务
 host-suffix, xamarin.com, Ⓜ️ 微软服务
 host-suffix, vscodeedu.com, Ⓜ️ 微软服务
 host-suffix, microsoftnews.com, Ⓜ️ 微软服务
+host-suffix, microsoftnews.net, Ⓜ️ 微软服务
 host-suffix, microsoft.ch, Ⓜ️ 微软服务
-host-suffix, microsoftnews.org, Ⓜ️ 微软服务
 host-suffix, microsoftnewsforkids.com, Ⓜ️ 微软服务
 host-suffix, microsoftnewsforkids.net, Ⓜ️ 微软服务
-host-suffix, microsoftedgeinsider.com, Ⓜ️ 微软服务
+host-suffix, microsoftnewsforkids.org, Ⓜ️ 微软服务
+host-suffix, xboxservices.com, Ⓜ️ 微软服务
 host-suffix, microsoft.cl, Ⓜ️ 微软服务
-host-suffix, t-msedge.net, Ⓜ️ 微软服务
-host-suffix, microsoftnewskids.org, Ⓜ️ 微软服务
+host-suffix, skypeassets.com, Ⓜ️ 微软服务
 host-suffix, msn.com, Ⓜ️ 微软服务
 host-suffix, msnewskids.com, Ⓜ️ 微软服务
 host-suffix, msnewskids.net, Ⓜ️ 微软服务
@@ -344,7 +341,7 @@ host-suffix, renovacionxboxlive.com, Ⓜ️ 微软服务
 host-suffix, tellmewhygame.com, Ⓜ️ 微软服务
 host-suffix, xbox.co, Ⓜ️ 微软服务
 host-suffix, xbox.com, Ⓜ️ 微软服务
-host-suffix, xbox.eu, Ⓜ️ 微软服务
+host-suffix, microsoftnewskids.net, Ⓜ️ 微软服务
 host-suffix, xbox.org, Ⓜ️ 微软服务
 host-suffix, xbox360.co, Ⓜ️ 微软服务
 host-suffix, xbox360.com, Ⓜ️ 微软服务
@@ -358,7 +355,7 @@ host-suffix, xboxone.co, Ⓜ️ 微软服务
 host-suffix, xboxone.com, Ⓜ️ 微软服务
 host-suffix, xboxone.eu, Ⓜ️ 微软服务
 host-suffix, xboxplayanywhere.com, Ⓜ️ 微软服务
-host-suffix, xboxservices.com, Ⓜ️ 微软服务
+host-suffix, microsoftnewskids.com, Ⓜ️ 微软服务
 host-suffix, xboxstudios.com, Ⓜ️ 微软服务
 host-suffix, xbx.lv, Ⓜ️ 微软服务
 host-suffix, beth.games, Ⓜ️ 微软服务
@@ -544,6 +541,10 @@ host-suffix, visualstudio.co.uk, Ⓜ️ 微软服务
 host-suffix, spoprod-a.akamaihd.net, Ⓜ️ 微软服务
 host-suffix, skype-edf.akadns.net, Ⓜ️ 微软服务
 host-suffix, microsoftstore.com.hk, Ⓜ️ 微软服务
+host-suffix, applicationinsights.io, Ⓜ️ 微软服务
+host-suffix, applicationinsights.net, Ⓜ️ 微软服务
+host-suffix, aria.ms, Ⓜ️ 微软服务
+host-suffix, data.microsoft.com, Ⓜ️ 微软服务
 host-suffix, dynamics.cn, Ⓜ️ 微软服务
 host-suffix, engkoo.com, Ⓜ️ 微软服务
 host-suffix, lync.cn, Ⓜ️ 微软服务
@@ -577,6 +578,7 @@ host-suffix, powerapps.cn, Ⓜ️ 微软服务
 host-suffix, powerappsportals.cn, Ⓜ️ 微软服务
 host-suffix, powerautomate.cn, Ⓜ️ 微软服务
 host-suffix, powerbi.cn, Ⓜ️ 微软服务
+host-suffix, telemetry.microsoft.com, Ⓜ️ 微软服务
 host-suffix, clarity.ms, Ⓜ️ 微软服务
 host-suffix, microsoftads.com, Ⓜ️ 微软服务
 host-suffix, msads.net, Ⓜ️ 微软服务
@@ -675,6 +677,7 @@ host-suffix, chinacloudapi.cn, Ⓜ️ 微软服务
 host-suffix, chinacloudapp.cn, Ⓜ️ 微软服务
 host-suffix, chinacloudsites.cn, Ⓜ️ 微软服务
 host-suffix, hdinsightservices.cn, Ⓜ️ 微软服务
+host-suffix, in.applicationinsights.azure.com, Ⓜ️ 微软服务
 host-suffix, management-azure-devices-provisioning.cn, Ⓜ️ 微软服务
 host-suffix, management-azure-devices.cn, Ⓜ️ 微软服务
 host-suffix, mcchcdn.com, Ⓜ️ 微软服务
@@ -714,6 +717,8 @@ host-suffix, azchcdnp.com, Ⓜ️ 微软服务
 host-suffix, azchcdnq.com, Ⓜ️ 微软服务
 host-suffix, azchcdnr.com, Ⓜ️ 微软服务
 host-suffix, azchcdns.com, Ⓜ️ 微软服务
+host, dc.applicationinsights.azure.com, Ⓜ️ 微软服务
+host, live.applicationinsights.azure.com, Ⓜ️ 微软服务
 host-suffix, azure-dns.cn, Ⓜ️ 微软服务
 host-suffix, azure-dns-1.cn, Ⓜ️ 微软服务
 host-suffix, azure-dns-2.cn, Ⓜ️ 微软服务
@@ -741,4 +746,6 @@ host, copilot-telemetry.githubusercontent.com, Ⓜ️ 微软服务
 host-suffix, microsoftreactor.cn, Ⓜ️ 微软服务
 host-suffix, microsoftreactor.com.cn, Ⓜ️ 微软服务
 host-suffix, reactorms.com.cn, Ⓜ️ 微软服务
+host, dc.services.visualstudio.com, Ⓜ️ 微软服务
 host, download.visualstudio.microsoft.com, Ⓜ️ 微软服务
+host, rt.services.visualstudio.com, Ⓜ️ 微软服务

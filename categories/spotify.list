@@ -3,7 +3,6 @@ host, audio4-ak-spotify-com.akamaized.net, 📺 欧美流媒体
 host, cdn-spotify-experiments.conductrics.com, 📺 欧美流媒体
 host, heads-ak-spotify-com.akamaized.net, 📺 欧美流媒体
 host, heads4-ak-spotify-com.akamaized.net, 📺 欧美流媒体
-host, spotify.com.edgesuite.net, 📺 欧美流媒体
 host, spotify.map.fastly.net, 📺 欧美流媒体
 host, spotify.map.fastlylb.net, 📺 欧美流媒体
 host-suffix, byspotify.com, 📺 欧美流媒体
@@ -23,6 +22,7 @@ host-suffix, spotifyforbrands.com, 📺 欧美流媒体
 host-suffix, spotifyforvendors.com, 📺 欧美流媒体
 host-suffix, spotifyjobs.com, 📺 欧美流媒体
 host-suffix, tospotify.com, 📺 欧美流媒体
+host-suffix, spotify.com.edgesuite.net, 📺 欧美流媒体
 host, adeventtracker.spotify.com, 📺 欧美流媒体
 host, adstudio-assets.scdn.co, 📺 欧美流媒体
 host, bloodhound.spotify.com, 📺 欧美流媒体

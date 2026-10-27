@@ -22,7 +22,6 @@ host-suffix, cloudflarebrowser.com, ☁️ 云服务
 host-suffix, cloudflarechallenge.com, ☁️ 云服务
 host-suffix, cloudflareclient.com, ☁️ 云服务
 host-suffix, cloudflarecp.com, ☁️ 云服务
-host-suffix, cloudflareinsights.com, ☁️ 云服务
 host-suffix, cloudflareok.com, ☁️ 云服务
 host-suffix, cloudflarepartners.com, ☁️ 云服务
 host-suffix, cloudflareportal.com, ☁️ 云服务
@@ -55,6 +54,7 @@ host-suffix, workers.dev, ☁️ 云服务
 host-suffix, cf-ipfs.com, ☁️ 云服务
 host-suffix, cloudflare-ipfs.com, ☁️ 云服务
 host-suffix, one.one.one, ☁️ 云服务
+host-suffix, cloudflareinsights.com, ☁️ 云服务
 host-suffix, cf-china.info, ☁️ 云服务
 host-suffix, cf-ns.com, ☁️ 云服务
 host-suffix, cf-ns.net, ☁️ 云服务
