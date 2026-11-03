@@ -55,10 +55,10 @@ host-suffix, octocaptcha.com, 🐱 代码托管
 host-suffix, opensource.guide, 🐱 代码托管
 host-suffix, repo.new, 🐱 代码托管
 host-suffix, thegithubshop.com, 🐱 代码托管
-host-suffix, githubcopilot.com, 🐱 代码托管
 host-suffix, npm.community, 🐱 代码托管
 host-suffix, npmjs.com, 🐱 代码托管
 host-suffix, npmjs.org, 🐱 代码托管
+host-suffix, githubcopilot.com, 🐱 代码托管
 host-suffix, cafe.github.com, 🐱 代码托管
 host-suffix, collector.github.com, 🐱 代码托管
 host, copilot-telemetry-service.githubusercontent.com, 🐱 代码托管
