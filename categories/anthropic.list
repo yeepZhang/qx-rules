@@ -17,3 +17,5 @@ host-suffix, claudemcpcontent.com, 🤖 AI 服务
 host-suffix, claudepages.dev, 🤖 AI 服务
 host-suffix, claudestudio.com, 🤖 AI 服务
 host-suffix, claudeusercontent.com, 🤖 AI 服务
+host, http-intake.logs.us5.datadoghq.com, 🤖 AI 服务
+host, o1158394.ingest.us.sentry.io, 🤖 AI 服务

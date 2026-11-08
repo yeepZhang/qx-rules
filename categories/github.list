@@ -27,6 +27,7 @@ host, productionresultssa18.blob.core.windows.net, 🐱 代码托管
 host, productionresultssa19.blob.core.windows.net, 🐱 代码托管
 host, copilot-proxy.githubusercontent.com, 🐱 代码托管
 host, copilot-workspace.githubnext.com, 🐱 代码托管
+host, production-copilot-host-westus.webpubsub.azure.com, 🐱 代码托管
 host, copilotprodattachments.blob.core.windows.net, 🐱 代码托管
 host-suffix, atom.io, 🐱 代码托管
 host-suffix, dependabot.com, 🐱 代码托管
@@ -55,10 +56,10 @@ host-suffix, octocaptcha.com, 🐱 代码托管
 host-suffix, opensource.guide, 🐱 代码托管
 host-suffix, repo.new, 🐱 代码托管
 host-suffix, thegithubshop.com, 🐱 代码托管
+host-suffix, githubcopilot.com, 🐱 代码托管
 host-suffix, npm.community, 🐱 代码托管
 host-suffix, npmjs.com, 🐱 代码托管
 host-suffix, npmjs.org, 🐱 代码托管
-host-suffix, githubcopilot.com, 🐱 代码托管
 host-suffix, cafe.github.com, 🐱 代码托管
 host-suffix, collector.github.com, 🐱 代码托管
 host, copilot-telemetry-service.githubusercontent.com, 🐱 代码托管
