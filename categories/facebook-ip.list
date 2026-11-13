@@ -110,8 +110,7 @@ ip6-cidr, 2a03:2887:ff5f::/48, 📘 Meta 系
 ip6-cidr, 2a03:2887:ff60::/48, 📘 Meta 系
 ip6-cidr, 2a03:2887:ff62::/47, 📘 Meta 系
 ip6-cidr, 2a03:2887:ff64::/46, 📘 Meta 系
-ip6-cidr, 2a03:2887:ff68::/47, 📘 Meta 系
-ip6-cidr, 2a03:2887:ff6a::/48, 📘 Meta 系
+ip6-cidr, 2a03:2887:ff68::/46, 📘 Meta 系
 ip6-cidr, 2a03:2887:ff6c::/48, 📘 Meta 系
 ip6-cidr, 2a03:2887:ff6f::/48, 📘 Meta 系
 ip6-cidr, 2a03:2887:ff70::/46, 📘 Meta 系
